@@ -41,24 +41,37 @@
 // }
 // let box = car();
 
-function wendingMachine(money , numb) {
-    let wendingItem = [
-        {
-            name: "Lays",
-            price: 30
-        },
-        {
-            name: "BP Spacer",
-            price: 10
-        }, {
-            name: "Candy Biscuits",
-            price: 30
-        }
-    ]
-    let itemRequested = wendingIte[numb];
-    if(money > itemRequested.price){
-        return itemRequested;
-    }
+// function wendingMachine(money , numb) {
+//     let wendingItem = [
+//         {
+//             name: "Lays",
+//             price: 30
+//         },
+//         {
+//             name: "BP Spacer",
+//             price: 10
+//         }, {
+//             name: "Candy Biscuits",
+//             price: 30
+//         }
+//     ]
+//     let itemRequested = wendingIte[numb];
+//     if(money > itemRequested.price){
+//         return itemRequested;
+//     }
 
+
+// }
+function juiceCompany(juiceName , juicePrice , juiceFlavor){
+    return{
+        name: juiceName,
+        price : juicePrice,
+        flavor : juiceFlavor,
+        benefits : function(){
+            console.log(`${this.name} gives instant energy`);
+        }
+    }
+    
 
 }
+ let catchBox = juiceCompany();
