@@ -1,0 +1,25 @@
+//OOP
+OJECT ORIENTED PROGRAMMING
+Real Life examples
+//object => koi bhui cheez jese
+bag , glass, kyeboard
+// blue print == naqsha  isko dekh kr objects use hote hain
+
+
+ghr kesa bnta hai? By miss //
+by Fatima => pehle khudai hoti hai phr bhrarai hoti hai phr tarai
+
+console 1 obj hai.
+. se pehle jo b ho wo json(obj) hai jese
+console(json obj).log(json item)
+// native code == non of your business
+
+
+Date() ==> upper case (Title case) ==  1st word capital
+
+PROBLEM OF US == REPEATITION
+(this) jis me b use ho mtlb wo khud
+
+
+// For reference
+// mdn == OOP javascript
