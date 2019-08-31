@@ -1,0 +1,21 @@
+// source to find designs 
+dribbble.com
+google images
+behance.net
+headspace
+freepik.com
+
+/// OOP
+ES6 in js to obj constructor => easy n short way
+**constructor function lo (noun) name dete hain
+
+Date() => special function/constructor /js factory
+
+*** Constructor function should be in Title case
+basic rule of react/programming
+**ksi b obj me items ya tou data hote hain ya action
+2 kinds of obj
+- data (property/field)
+- action (method) => wo function jo ksi obj me aye
+//prototype
+- wo jga jo sare obj share krte hain

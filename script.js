@@ -62,16 +62,44 @@
 
 
 // }
-function juiceCompany(juiceName , juicePrice , juiceFlavor){
-    return{
-        name: juiceName,
-        price : juicePrice,
-        flavor : juiceFlavor,
-        benefits : function(){
-            console.log(`${this.name} gives instant energy`);
-        }
-    }
+// function juiceCompany(juiceName , juicePrice , juiceFlavor){
+//     return{
+//         name: juiceName,
+//         price : juicePrice,
+//         flavor : juiceFlavor,
+//         benefits : function(){
+//             console.log(`${this.name} gives instant energy`);
+//         }
+//     }
     
 
+// }
+// function computersCompany(computerName , computerPrice ,systemOS){
+//     return{
+//         name: computerName 
+//         price : computerPrice 
+//        system : ,systemOS
+//         benefits : function(){
+//             console.log(`${this.name} computer is amazing`);
+//         }
+//     }
+    
+
+// }
+//  let catchBox = computersCompany();
+
+
+// 31-8-2019 ES6
+// no need to remember .. still old version + factory
+
+// constructor
+function IdCard(stdName,stdGender,stdAge , benefits){
+    this.name = stdName;
+    this.gender = stdGender;
+    this.age = stdAge;
+    
 }
- let catchBox = juiceCompany();
+// no differnce in use..b/c of less space occupied by this
+IdCard.prototype.benefits = function(){
+                console.log(`${this.name} computer is amazing`);
+           };
